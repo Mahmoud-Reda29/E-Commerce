@@ -1,0 +1,12 @@
+.slider-container {
+    height: 100%; /* Ensure the container has height */
+    width: 100%;  /* Ensure the container has width */
+    display: flex; /* Align items properly */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slick-slide img {
+    max-width: 100%; /* Ensure images are responsive */
+    max-height: 100%;
+  }
